@@ -1248,9 +1248,13 @@ p.inform {
   padding: 75px 0 85px;
 }
 
+.main-title {
+  padding: 85px 0 95px;
+}
+
 .main-title-container {
   display: flex;
-  width: 1100px;
+  width: 1200px;
   margin: 0 auto;
 }
 
@@ -1259,7 +1263,7 @@ p.inform {
 }
 
 .title-text {
-  font-size: 28px;
+  font-size: 24px;
   color: #fff;
   padding: 40px;
   padding-right: 0px;
@@ -1267,7 +1271,7 @@ p.inform {
 }
 
 .title-text a {
-  font-size: 28px;
+  font-size: 24px;
   color: #fff;
   line-height: 44px;
   text-decoration: none;
@@ -1277,18 +1281,19 @@ p.inform {
   display: block;
   font-size: 44px;
   font-weight: 700;
+  margin-bottom: 15px;
 }
 
 .span-create {
   display: block;
-  font-size: 28px;
+  font-size: 24px;
   color: #fff;
   margin-bottom: 20px;
 }
 
 .screenshot {
   display: block;
-  max-width: 580px;
+  max-width: 700px;
   max-height: 480px;
   width: auto;
   height: auto;
@@ -1310,7 +1315,7 @@ p.inform {
 }
 
 .title-section {
-  margin: 25px auto 10px;
+  margin: 25px auto 45px;
   font-size: 32px;
   color: #ccc;
   padding: 20px;
