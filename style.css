@@ -466,8 +466,11 @@ input[type="color"]::-webkit-color-swatch {
 }
 
 .previews {
-  width: 120px;
+  width: 133px;
+  margin-right: 2px;
+  height: calc(100vh - 30px);
   padding-top: 2px;
+  overflow: scroll;
 }
 
 .previews-list {
@@ -860,7 +863,7 @@ input:focus {
   left: -12px;
   top: 320px;
   width: 220px;
-  padding: 9px 10px;
+  padding: 12px 10px;
   z-index: 5;
   background-color: #444;
   transition: left 1s;
@@ -869,7 +872,7 @@ input:focus {
 .setting-btn {
   position: absolute;
   left: -46px;
-  top: 36px;
+  top: 47px;
   width: 46px;
   height: 48px;
   background-color: #444;
@@ -882,12 +885,12 @@ input:focus {
 }
 
 .setting-save-btn {
-  top: 84px;
+  top: 95px;
   background-image: url("assets/svg/image.svg");
 }
 
 .setting-import-btn {
-  top: 132px;
+  top: 143px;
   background-image: url("assets/svg/import.svg");
   border-bottom: none;
 }
@@ -911,7 +914,7 @@ input:focus {
   text-align: center;
   transition: 0.3s background-color;
   cursor: pointer;
-  margin: 15px auto 20px;
+  margin: 10px auto;
 }
 
 .file-upload:hover {
