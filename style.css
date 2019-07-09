@@ -1002,10 +1002,6 @@ input:focus {
   transition: 0.3s background-color;
 }
 
-.save-google-drive {
-  width: 130px;
-}
-
 .btn-resize {
   margin-top: 20px;
 }
