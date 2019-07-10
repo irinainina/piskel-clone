@@ -869,6 +869,10 @@ input:focus {
   transition: left 1s;
 }
 
+.setting-import-container {
+  padding: 14px 10px;
+}
+
 .setting-btn {
   position: absolute;
   left: -46px;
@@ -914,7 +918,7 @@ input:focus {
   text-align: center;
   transition: 0.3s background-color;
   cursor: pointer;
-  margin: 10px auto;
+  margin: 12px auto;
 }
 
 .file-upload:hover {
